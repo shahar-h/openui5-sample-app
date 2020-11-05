@@ -1,0 +1,13 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.ui.demo.todo.controller.App" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					    <FeedListItem icon="sap-icon://personnel-view" sender="John Doe" text="Feed List Item text" info="Waiting for Approval" timestamp="Dec 02, 2012" id="item0"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

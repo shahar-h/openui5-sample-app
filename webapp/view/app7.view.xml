@@ -1,0 +1,17 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.ui.demo.todo.controller.App" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+					    <InputListItem type="Navigation" label="Input List Item" id="item2">
+					        <content>
+					            <Input ariaLabelledBy="__item2-label" value="input" width="100%" id="input0"/>
+					        </content>
+					    </InputListItem>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
